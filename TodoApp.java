@@ -67,7 +67,7 @@ public class TodoApp {
 
     
     static void deleteTodo() {
-        System.out.print("Enter Todo ID to Delete: ");
+        System.out.println("Enter Todo ID to Delete: ");
         int id = sc.nextInt();
 
         for (Todo todo : todos) {
